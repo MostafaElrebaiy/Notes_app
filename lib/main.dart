@@ -14,7 +14,7 @@ class NotesApp extends StatelessWidget {
         routerConfig: AppRouter.router,
         debugShowCheckedModeBanner: false,
 
-      theme: ThemeData(brightness: Brightness.dark),
+      theme: ThemeData(brightness: Brightness.dark,fontFamily: 'Poppins'),
     
     );
   }
