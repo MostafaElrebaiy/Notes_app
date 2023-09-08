@@ -12,9 +12,9 @@ class AddNoteBootomSheet extends StatelessWidget {
         children: [
           SizedBox(height: 32,),
           CustomTextField(hintText: 'Title',),
-          SizedBox(height: 32,),
+          SizedBox(height: 16,),
     
-          CustomTextField(hintText: 'Content',),
+          CustomTextField(hintText: 'Content',maxlines: 5,),
         ],
       ),
     );
